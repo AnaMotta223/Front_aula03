@@ -1,0 +1,23 @@
+.empresa, .area{
+ display: block;
+ height: 100px;
+ width: 150px;
+ background-color: green;
+}
+/* nao muda mexer na altura e largura por ser inline (tag a) */
+
+.celulares{
+    background-color: purple;
+}
+.impressoras{
+    background-color: blueviolet;
+}
+.computadores, .roteadores{
+    display: inline-block;
+    background-color: beige;
+    height: 100px;
+    width: 200px;
+}
+/* inline normal não deixa mexer na altura e largura enquanto fica na mesma linha
+inline block deixa na mesma linha e permite mexer na altura e na largura
+*/

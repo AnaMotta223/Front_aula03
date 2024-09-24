@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* height pega 100% da viewport (tamanho da tela) */
+}
+
+.container{
+    border: 3px solid red;
+    width: 640px;
+    height: 480px;
+    display: flex;
+    flex-direction: row;
+    /* alinhamento horizontal */
+    align-items: center;
+    justify-content: center; 
+    /* alinhamento vertical */
+}
+
+/* flex é aplicado na classe pai (container) para ser usado nos filhos (elementos)*/
+.elementos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid darkblue;
+    width: 120px;
+    height: 120px;
+}
+
+.miolo{
+    border: 1px solid brown;
+    width: 50px;
+    height: 40px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Float</title>
+
+    <style>
+      article {
+        background-color: gray;
+      }
+      /* dividir um texto para cada metade da tela */
+      .coluna1 {
+        float: left;
+        width: 70%;
+      }
+      .coluna2 {
+        float: right;
+        width: 30%;
+      }
+      div {
+        background-color: aqua;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: underline;
+        clear: both;
+      }
+      /* clear limpa a formatação em cima e evita que a cor fique onde ela não deveria */
+    </style>
+  </head>
+  <body>
+    <article>
+      <h1>Por onde começar a estudar?</h1>
+      <p class="coluna1">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi quam sunt
+        officia, inventore sit adipisci aliquam veniam voluptate enim
+        asperiores, quis cumque assumenda corporis animi ipsa eveniet nihil.
+        Porro, id!
+      </p>
+      <p class="coluna2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+        voluptate dolorem fuga, molestias atque illum amet alias in laboriosam
+        ipsum, quasi labore dolores nostrum sit ipsa iure excepturi expedita
+        aspernatur!
+      </p>
+    </article>
+
+    <div>
+      <p>Introdução ao CSS!</p>
+    </div>
+  </body>
+</html>

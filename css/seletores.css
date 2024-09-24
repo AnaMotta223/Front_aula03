@@ -1,0 +1,8 @@
+/* aplica somente em um texto pq o destacar de missao nao é filho direto do article, e sim do p */
+article > .destacar{
+    color: yellow;
+}
+
+#titulo{
+    text-align: center;
+}
